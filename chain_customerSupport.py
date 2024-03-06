@@ -6,7 +6,7 @@ from langchain_community.llms import HuggingFaceEndpoint
 import os
 
 # Mengatur LLM
-os.environ["OPENAI_API_KEY"] = "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
+os.environ["OPENAI_API_KEY"] = ""
 llm = ChatOpenAI(temperature=0.9)
 
 def handle_complaint(komplain: str) -> str:
